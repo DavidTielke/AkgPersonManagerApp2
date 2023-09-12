@@ -2,7 +2,7 @@
 
 namespace DavidTielke.PersonManagerApp.Data.CsvStoring;
 
-public class PersonRepository
+public class PersonRepository : IPersonRepository
 {
     public IQueryable<Person> LoadAll()
     {
