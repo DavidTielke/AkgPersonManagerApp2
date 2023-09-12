@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{FA8F7844-1297-4D3F-8D28-14EA131329D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Logic", "Logic", "{D950A318-6662-4045-9F97-44787E8214B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{30389CFA-EA72-4C43-99BE-27F34EFD7536}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CrossCutting", "CrossCutting", "{DC66E7F3-B168-4013-B28D-5B998B91EF8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{4A7629EC-4986-435F-A290-B3271EA6045E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonManagement", "PersonManagement\PersonManagement.csproj", "{61E13E93-EEC2-41B0-BE3A-3E3026B676AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsvStoring", "CsvStoring\CsvStoring.csproj", "{030BF178-2541-4B6F-A8D1-3407987313BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataClasses", "DataClasses\DataClasses.csproj", "{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A7629EC-4986-435F-A290-B3271EA6045E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7629EC-4986-435F-A290-B3271EA6045E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7629EC-4986-435F-A290-B3271EA6045E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7629EC-4986-435F-A290-B3271EA6045E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{61E13E93-EEC2-41B0-BE3A-3E3026B676AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61E13E93-EEC2-41B0-BE3A-3E3026B676AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61E13E93-EEC2-41B0-BE3A-3E3026B676AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61E13E93-EEC2-41B0-BE3A-3E3026B676AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{030BF178-2541-4B6F-A8D1-3407987313BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{030BF178-2541-4B6F-A8D1-3407987313BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{030BF178-2541-4B6F-A8D1-3407987313BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{030BF178-2541-4B6F-A8D1-3407987313BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A7629EC-4986-435F-A290-B3271EA6045E} = {FA8F7844-1297-4D3F-8D28-14EA131329D9}
+		{61E13E93-EEC2-41B0-BE3A-3E3026B676AB} = {D950A318-6662-4045-9F97-44787E8214B9}
+		{030BF178-2541-4B6F-A8D1-3407987313BB} = {30389CFA-EA72-4C43-99BE-27F34EFD7536}
+		{8BBD925B-7D46-4A9B-B201-8E79CD2E12C5} = {DC66E7F3-B168-4013-B28D-5B998B91EF8C}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3071BEF9-7E68-4FE3-B92F-4AC51033C2AA}
+	EndGlobalSection
+EndGlobal
