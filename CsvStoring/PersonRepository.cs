@@ -1,4 +1,5 @@
 ﻿using DavidTielke.PersonManagerApp.CrossCutting.DataClasses;
+using DavidTielke.PersonManagerApp.Data.DataStoring.Contract;
 
 namespace DavidTielke.PersonManagerApp.Data.CsvStoring;
 

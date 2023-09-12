@@ -4,12 +4,17 @@
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-	  <RootNamespace>DavidTielke.PersonManagerApp.Data.CsvStoring</RootNamespace>
+	  <RootNamespace>DavidTielke.PersonManagerApp.Logic.PersonManagement.Contract</RootNamespace>
   </PropertyGroup>
 
   <ItemGroup>
+    <Folder Include="Callbacks\" />
+    <Folder Include="DataClasses\" />
+    <Folder Include="Exceptions\" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\DataClasses\DataClasses.csproj" />
-    <ProjectReference Include="..\DataStoring.Contract\DataStoring.Contract.csproj" />
   </ItemGroup>
 
 </Project>

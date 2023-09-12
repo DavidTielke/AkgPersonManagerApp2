@@ -12,6 +12,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CsvStoring\CsvStoring.csproj" />
+    <ProjectReference Include="..\DataStoring.InMemory\DataStoring.InMemory.csproj" />
     <ProjectReference Include="..\PersonManagement\PersonManagement.csproj" />
   </ItemGroup>
 

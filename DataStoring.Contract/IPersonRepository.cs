@@ -1,6 +1,6 @@
 ﻿using DavidTielke.PersonManagerApp.CrossCutting.DataClasses;
 
-namespace DavidTielke.PersonManagerApp.Data.CsvStoring;
+namespace DavidTielke.PersonManagerApp.Data.DataStoring.Contract;
 
 public interface IPersonRepository
 {

@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\CsvStoring\CsvStoring.csproj" />
+    <ProjectReference Include="..\PersonManagement.Contract\PersonManagement.Contract.csproj" />
   </ItemGroup>
 
 </Project>

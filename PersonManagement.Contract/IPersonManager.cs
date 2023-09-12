@@ -1,6 +1,6 @@
 ﻿using DavidTielke.PersonManagerApp.CrossCutting.DataClasses;
 
-namespace DavidTielke.PersonManagerApp.Logic.PersonManagement;
+namespace DavidTielke.PersonManagerApp.Logic.PersonManagement.Contract;
 
 public interface IPersonManager
 {
